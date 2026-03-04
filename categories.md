@@ -25,7 +25,7 @@ permalink: /categories/
 ## <span id="{{ category[0] | slugify }}">{{ category[0] }}</span> <small>({{ category[1].size }})</small>
 {% assign catPosts = category[1] | sort: 'date' | reverse %}
 {% for post in catPosts %}
-- {{ post.date | date: "%d.%m.%Y" }} — [{{ post.title }}]({{ post.url | relative_url }})
+- {{ post.date | date: "%d.%m.%Y" }} — <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
 {% endfor %}
 
 <p class="back-to-top"><a href="#top">↑ Zurück nach oben</a></p>
