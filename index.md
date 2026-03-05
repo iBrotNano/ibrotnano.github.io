@@ -23,7 +23,7 @@ title: Blog
   <small>{{ post.date | date: "%d.%m.%Y" }}</small>
   {% if post.categories and post.categories.size > 0 %}
   
-  {% for cat in post.categories %}<a class="tag" href="{{ '/categories/#' | append: cat | slugify | relative_url }}">#{{ cat }}</a>{% unless forloop.last %} {% endunless %}{% endfor %}
+  {% for cat in post.categories %}<a class="tag" href="{{ '/categories/#' | append: cat | slugify | relative_url }}">#{{ cat }}</a>{% endfor %}
   {% endif %}
   
   {{ post.excerpt | strip_html | truncate: 180 }}

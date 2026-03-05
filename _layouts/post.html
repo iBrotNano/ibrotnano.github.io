@@ -9,10 +9,8 @@ layout: default
             <time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%d.%m.%Y" }}</time>
             {% if page.categories and page.categories.size > 0 %}
             ·
-            {% for cat in page.categories %}
-            <a class="tag" href="{{ '/categories/#' | append: cat | slugify | relative_url }}">#{{ cat }}</a>{% unless
-            forloop.last %} {% endunless %}
-            {% endfor %}
+            {% for cat in page.categories %}<a class="tag"
+                href="{{ '/categories/#' | append: cat | slugify | relative_url }}">#{{ cat }}</a>{% endfor %}
             {% endif %}
         </p>
     </header>
