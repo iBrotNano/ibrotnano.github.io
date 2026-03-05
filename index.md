@@ -11,7 +11,8 @@ title: Blog
 
 <p class="category-overview">
 {% for category in categories %}
-  <a class="category-pill" data-count="{{ category[1].size }}" href="{{ '/categories/#' | append: category[0] | slugify | relative_url }}">{{ category[0] }} <span>({{ category[1].size }})</span></a>
+  {% assign cat_slug = category[0] | slugify %}
+  <a class="category-pill" data-count="{{ category[1].size }}" href="{{ '/categories/#' | append: cat_slug | relative_url }}">{{ category[0] }} <span>({{ category[1].size }})</span></a>
 {% endfor %}
 </p>
 {% endif %}
@@ -23,7 +24,7 @@ title: Blog
   <small>{{ post.date | date: "%d.%m.%Y" }}</small>
   {% if post.categories and post.categories.size > 0 %}
   
-  {% for cat in post.categories %}<a class="tag" href="{{ '/categories/#' | append: cat | slugify | relative_url }}">#{{ cat }}</a>{% unless forloop.last %} {% endunless %}{% endfor %}
+  {% for cat in post.categories %}{% assign tag_slug = cat | slugify %}<a class="tag" href="{{ '/categories/#' | append: tag_slug | relative_url }}">#{{ cat }}</a>{% unless forloop.last %} {% endunless %}{% endfor %}
   {% endif %}
   
   {{ post.excerpt | strip_html | truncate: 180 }}
