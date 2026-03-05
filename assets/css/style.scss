@@ -1,5 +1,5 @@
---- 
---- 
+---
+---
 $bg: #181a20; // Terminal dark
 $bg-soft: #23272e; // Slightly lighter for cards
 $text: #b6ffb0; // Terminal green
@@ -134,6 +134,7 @@ h3 {
 }
 
 .tag {
+    margin-right: 0.25em;
     color: $accent-soft;
     font-weight: 600;
 }
