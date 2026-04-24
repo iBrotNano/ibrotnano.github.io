@@ -11,8 +11,11 @@ Playlists:
 - [Hip Hop](https://suno.com/playlist/fd03b653-c0c2-48de-87eb-fa2078eb5e94)
 - [Drum N Base](https://suno.com/playlist/297919dd-8b08-4eb2-9215-bd5792944fb4)
 - [Children](https://suno.com/playlist/087e8475-33b2-4026-b15c-23dd9efdee3e)
+- [Experimental](https://suno.com/playlist/f015ebf2-efb6-43ee-9b6d-29028124e179)
 
 Meine aktuelle Top Ten:
+
+<iframe src="https://suno.com/embed/ac1305b6-16e2-4000-91cf-29cf3a2c2c2e" width="760" height="240" frameborder="0" allow="autoplay; encrypted-media; fullscreen" allowfullscreen loading="lazy" referrerpolicy="no-referrer-when-downgrade"><a href="https://suno.com/song/ac1305b6-16e2-4000-91cf-29cf3a2c2c2e">Listen on Suno</a></iframe>
 
 <iframe src="https://suno.com/embed/f5daeedc-c016-41d3-9f7d-697715e761c4" width="760" height="240" frameborder="0" allow="autoplay; encrypted-media; fullscreen" allowfullscreen loading="lazy" referrerpolicy="no-referrer-when-downgrade"><a href="https://suno.com/song/f5daeedc-c016-41d3-9f7d-697715e761c4">Listen on Suno</a></iframe>
 
