@@ -31,3 +31,7 @@ Meine aktuelle Top Ten:
 7. <iframe src="https://suno.com/embed/70e1b867-dbd6-4c72-92ff-d4402be066e5" width="760" height="240" frameborder="0" allow="autoplay; encrypted-media; fullscreen" allowfullscreen loading="lazy" referrerpolicy="no-referrer-when-downgrade"><a href="https://suno.com/song/70e1b867-dbd6-4c72-92ff-d4402be066e5">Listen on Suno</a></iframe>
 
 8. <iframe src="https://suno.com/embed/28a05cb8-3ac5-4ba7-ba08-d4da95b71d8a" width="760" height="240" frameborder="0" allow="autoplay; encrypted-media; fullscreen" allowfullscreen loading="lazy" referrerpolicy="no-referrer-when-downgrade"><a href="https://suno.com/song/28a05cb8-3ac5-4ba7-ba08-d4da95b71d8a">Listen on Suno</a></iframe>
+
+9. <iframe src="https://suno.com/embed/35e3e262-ac65-4da4-86fd-791daa319849" width="760" height="240" frameborder="0" allow="autoplay; encrypted-media; fullscreen" allowfullscreen loading="lazy" referrerpolicy="no-referrer-when-downgrade"><a href="https://suno.com/song/35e3e262-ac65-4da4-86fd-791daa319849">Listen on Suno</a></iframe>
+
+10. <iframe src="https://suno.com/embed/99e95e00-010b-4383-a11a-6c37cbdf6a8d" width="760" height="240" frameborder="0" allow="autoplay; encrypted-media; fullscreen" allowfullscreen loading="lazy" referrerpolicy="no-referrer-when-downgrade"><a href="https://suno.com/song/99e95e00-010b-4383-a11a-6c37cbdf6a8d">Listen on Suno</a></iframe>
