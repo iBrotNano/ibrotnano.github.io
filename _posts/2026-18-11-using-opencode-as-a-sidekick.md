@@ -1,6 +1,6 @@
 ---
 title: Using OpenCode As A Sidekick
-date: 2026-11-13 11:01:00 +0200
+date: 2026-11-23 13:05:00 +0200
 categories: [software, windows, ai, agentic coding, coding, development, opencode]
 ---
 
